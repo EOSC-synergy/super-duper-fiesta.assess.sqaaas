@@ -15,32 +15,32 @@ sqa_criteria:
     repos:
       github.com/PalomoIFCA/super-duper-fiesta git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-cardinal-lion.sh
-        container: qc.acc_snippy-burgundy-eel
+        - /usr/bin/env sh .sqa/script.cadet_forgiving_hedgehog.sh
+        container: qc.acc_persimmon_apathetic_kiwi
   QC.Doc:
     repos:
       github.com/PalomoIFCA/super-duper-fiesta find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-denim-zebra.sh
-        container: qc.doc_sleazy-tan-seal
+        - /usr/bin/env sh .sqa/script.persimmon_gracious_raccoon.sh
+        container: qc.doc_forest_ambitious_griffin
       github.com/PalomoIFCA/super-duper-fiesta git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-burgundy-gerbil.sh
-        container: qc.doc_queasy-buff-grouse
+        - /usr/bin/env sh .sqa/script.onyx_sad_eel.sh
+        container: qc.doc_umber_diplomatic_viper
       github.com/PalomoIFCA/super-duper-fiesta markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-firebrick-lobster.sh
-        container: qc.doc_trippy-gamboge-gibbon
+        - /usr/bin/env sh .sqa/script.puce_analytical_salamander.sh
+        container: qc.doc_grege_funny_pangolin
   QC.Lic:
     repos:
       github.com/PalomoIFCA/super-duper-fiesta licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-ultramarine-butterfly.sh
-        container: qc.lic_blurry-fuchsia-schnauzer
+        - /usr/bin/env sh .sqa/script.umber_reserved_rattlesnake.sh
+        container: qc.lic_silver_balanced_tarantula
   QC.Ver:
     repos:
       github.com/PalomoIFCA/super-duper-fiesta get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-carmine-lynx.sh
-        container: qc.ver_lovely-dandelion-eleuth
+        - /usr/bin/env sh .sqa/script.currant_stoic_jackal.sh
+        container: qc.ver_ash_generous_kiwi
 timeout: 5400
